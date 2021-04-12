@@ -1,0 +1,42 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(15, 15, 15);
+    }
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+.logo{
+    width: 25%;
+    vertical-align: top;
+}
+
+.nombre{
+    vertical-align: middle;
+}
+
+hr{
+    height: 2px;
+}
+
+p{
+    font-weight: 300;
+}
+
+@media (min-width:768px){
+    .montana{
+        height: 170px;
+    }
+}
+
+h2{
+    font-weight: 500;
+}
+
+.navbar{
+   transition: all 1s ease;
+}
