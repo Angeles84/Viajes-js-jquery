@@ -16,7 +16,7 @@
 <body>
   <nav id="menu" class="container-fluid navbar navbar-expand-lg navbar-dark text-white fixed-top">
     <div class="container my-3">
-      <a class="navbar-brand col-4 col-sm-2 nombre" href="#"><img src="assets/img/viajes.svg" class="logo pr-2 d-none d-md-block" alt="logo">Viajes Chile</a>
+      <a class="navbar-brand col-4 col-sm-2 nombre" href="#"><img src="assets/img/viajes.svg" class="logo pr-2 d-none d-md-inline-block" alt="logo">Viajes Chile</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse"
       data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -97,7 +97,8 @@
     <h3 class="text-center text-white">Destacados</h3>
     <hr class="bg-info mb-4 mt-4">
     
-    <div class="card-deck mt-2">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-4">
+      <div class="col">
         <div class="card mb-4">
           <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
           <div class="card-body bg-info text-white">
@@ -105,6 +106,8 @@
             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore magnam unde et similique labore eveniet.</p>
           </div>
         </div>
+      </div>
+      <div class="col">
         <div class="card mb-4">
           <img src="assets/img/card2.jpg" class="card-img-top montana" alt="...">
           <div class="card-body bg-info text-white">
@@ -112,22 +115,29 @@
             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore magnam unde et similique labore eveniet.</p>
           </div>
         </div>
+      </div>
+      <div class="col">
         <div class="card mb-4">
           <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
           <div class="card-body bg-info text-white">
-            <h5 class="card-title">Odit vero quibusdam facere totam.</h5>
+            <h5 class="card-title">Odit vero quibusdam.</h5>
             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore magnam unde et similique labore eveniet.</p>
           </div>
         </div>
+      </div>
+      <div class="col">
         <div class="card mb-4">
-            <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+          <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
             <div class="card-body bg-info text-white">
-              <h5 class="card-title">Quidem rerum possimus labore.</h5>
+              <h5 class="card-title">Quidem rerum possimus.</h5>
               <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore magnam unde et similique labore eveniet.</p>
             </div>
-          </div>
-      </div> 
+        </div>
+      </div>
+    </div>
   </section>
+
+
 
   <div id="contacto" class="container my-5 pt-4">
     <h3 class="text-center text-white">Contacto</h3>
