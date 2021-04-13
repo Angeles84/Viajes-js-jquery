@@ -11,12 +11,13 @@ body * {
 
 
 .logo{
-    width: 25%;
+    width: 3rem;
     vertical-align: top;
 }
 
 .nombre{
     vertical-align: middle;
+    font-size: 1.6rem;
 }
 
 hr{
@@ -28,6 +29,15 @@ p{
 }
 
 
+h2{
+    font-weight: 500;
+}
+
+.navbar{
+   transition: all 1s ease;
+}
+
+/*
 
 @media (min-width:992px) and (max-width:1200px){
     .logo{
@@ -47,10 +57,4 @@ p{
  
 }
 
-h2{
-    font-weight: 500;
-}
-
-.navbar{
-   transition: all 1s ease;
-}
+*/
